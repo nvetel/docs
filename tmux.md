@@ -1,5 +1,16 @@
 # Tmux
 
+## Sessions
+
+```
+# Switch to another session
+<C-b> + s
+# select the session
+
+# Switch to last used session
+<C-b> + L
+```
+
 ## Mouse mode with Cygwin in windows
 
 ```
