@@ -33,6 +33,14 @@ bind-key -T copy-mode MouseDragEnd1Pane send-keys -X copy-selection \; save-buff
 bind-key -T root MouseDown2Pane load-buffer /dev/clipboard \; paste-buffer
 ```
 
+## Jump to a window
+
+```
+prefix-key <window-index>
+prefix-key ' <window-index>
+prefix-key w
+```
+
 ## Move a pane in its window
 
 Move the current pane to the destination pane, splitting it vertically by
