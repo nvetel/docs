@@ -17,3 +17,10 @@ git reset --hard <remote-branch>
 # Reset to the upstream branch
 git reset --hard @{upstream}
 ```
+
+## Less
+
+```
+# don't wrap long lines
+less --chop-long-lines/-S
+```
