@@ -5,3 +5,9 @@
 ```
 CTRL-W + x
 ```
+
+## Format JSON file
+
+```
+:%!python -m json.tool
+```
