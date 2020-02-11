@@ -18,6 +18,12 @@ git reset --hard <remote-branch>
 git reset --hard @{upstream}
 ```
 
+### Show file at a specific commit
+
+```
+git show REVISION:PATH
+```
+
 ## Less
 
 ```
