@@ -53,6 +53,17 @@ move-pane -t <dst-pane>
 move-pane -t <dst-pane> -h
 ```
 
+## Move a pane in other window
+
+```
+# Go to the pane to move and mark it
+select-pane -m
+# Go to the destination pane and join.
+# By default the destination is split vertically.
+# Use -h to split horizontally.
+join-pane [-h]
+```
+
 ## Swap panes
 
 prefix-key {
