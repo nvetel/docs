@@ -30,3 +30,10 @@ git show REVISION:PATH
 # don't wrap long lines
 less --chop-long-lines/-S
 ```
+
+## Sed
+
+```
+# Filter logs from date to date
+sed -n '/2018-04-12 14:44:00.000/,/2018-04-12 14:45:00.000/p' log_file
+```
