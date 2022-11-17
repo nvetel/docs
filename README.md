@@ -1,5 +1,13 @@
 # Docs
 
+## APT
+
+### Upgrade only one package
+
+```
+sudo apt install --only-upgrade package_name
+```
+
 ## Git
 
 ### Move a branch (change the branch pointer target)
